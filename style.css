@@ -1,0 +1,275 @@
+body {
+    background-color: lightslategray;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 0;
+    transition-duration:.5s;
+}
+header {
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+    background-color: white;
+    overflow: auto;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+    transition-duration:.5s;
+}
+header:hover{
+    background-color:#4aaaa5;
+    transition-duration:.5s;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    background-color: #4aaaa5;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    transition-duration:.5s;
+}
+
+h1:hover {
+    background-color: black;
+    color: #4aaaa5;
+    transition-duration: .5s;
+}
+
+aside {
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 25px;
+    width: fit-content;
+    height: fit-content;
+    transition-duration:.5s;
+}
+
+div {
+    float: right;
+    margin-top: 40px;
+    margin-left: 40px;
+    transition-duration:.5s;
+}
+
+a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    transition-duration: 1s;
+}
+
+article {
+    float: left;
+    background-color: white;
+    padding: 15px;
+    width: 97%;
+    transition-duration:.5s;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #4aaaa5;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    height: fit-content;
+    border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-bottom-color:#4aaaa5;
+    transition-duration:.5s;
+}
+
+#pic {
+    float: left;
+    height: 300px;
+    margin-right: 15px;
+    transition-duration:.5s;
+}
+
+#pic:hover {
+    height: 350px;
+    transition-duration: .5s;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 0;
+    overflow: auto;
+    transition-duration:.5s;
+}
+
+.lyric {
+    font-style: italic;
+    color: lightcoral;
+    transition-duration: .5s;
+}
+
+a:hover {
+    color: white;
+    transition-duration: .75s;
+}
+
+a:active {
+    background-color: red;
+    color:white;
+    border-color: red;
+    transition-duration: .1s;
+}
+
+a:visited {
+    filter: blur(100px);
+    transition-duration:.5s;
+}
+
+#eskimo {
+    float: left;
+    height: 250px;
+    margin: 15px;
+    transition-duration:.5s;
+}
+
+.esk1:hover {
+    filter:invert(100%);
+    transition-duration: 1s;
+}
+
+.esk2:hover {
+    filter: contrast(200%);
+    filter: brightness(400%);
+    transition-duration: 1s;
+}
+
+.esk3:hover {
+    filter: hue-rotate(270deg);
+    transition-duration: 1s;
+}
+
+.esk4:hover {
+    filter: blur(35px);
+    transition-duration: 1s;
+}
+
+.esk5:hover {
+transform: rotate(360deg);
+transition-duration: 1s;
+}
+
+input {
+    width:30%;
+    margin-right: 30px;
+    transition-duration:.5s;
+}
+
+.comment {
+    width: 73%;
+    height: 50px;
+    transition-duration:.5s;
+}
+
+.sub:hover {
+    background-color: #4aaaa5;
+    transition-duration: .3s;
+}
+
+/* 768px or less.*/
+@media screen and (max-width: 768px) {
+    body {
+      background-color: black;
+      transition-duration: 1s;
+      width: auto;
+    }
+
+    body {
+      width: 600px;
+      transition-duration: 1s;
+      margin: auto;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 30px;
+        padding: 33px;
+    }
+
+    aside {
+        clear: both;
+        display: contents;
+        margin-bottom: 0;
+        height: 100%
+    }
+
+    a {
+        font-size: 35px;
+    }
+
+    div {
+        margin-top: 20px;
+        margin-left:40px;
+    }
+  }
+/* 640px or less.*/
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-color: darkblue;
+      transition-duration: 1s;
+      width: 400px;
+      transition-duration: 1s;
+      margin: auto;
+    }
+
+    h1 {
+        width: 30%;
+        font-size: auto;
+    }
+
+    aside {
+        clear: both;
+        display: contents;
+        margin-bottom: 10px;
+        height: 100%
+    }
+
+    img {
+        width: auto;
+        height: auto;
+        margin: auto
+    }
+
+    p {
+        clear: both;
+        font-size: auto;
+    }
+
+    a {
+        font-size: auto;
+        padding-bottom: 25px;
+    }
+
+    div {margin:auto;
+        margin-left: 0;
+    }
+
+    input {
+        width:100%;
+        margin-right:0;
+        transition-duration:.5s;
+    }
+    
+    .comment {
+        width: 100%;
+        height: 50px;
+        transition-duration:.5s;
+  }
