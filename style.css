@@ -134,7 +134,8 @@ a:visited {
 
 #eskimo {
     float: left;
-    height: 250px;
+    width: 40%;
+    height: auto;
     margin: 15px;
     transition-duration:.5s;
 }
